@@ -1,0 +1,3 @@
+<launch>
+        <node name="node_timedomain_uwb" pkg="pkg_timedomain_uwb" type="node_timedomain_uwb" output="screen"/>
+</launch>

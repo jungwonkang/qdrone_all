@@ -1,0 +1,8 @@
+prefix=/home/york2/catkin_ws/devel
+
+Name: pkg_timedomain_uwb
+Description: Description of pkg_timedomain_uwb
+Version: 0.0.0
+Cflags: -I/home/york2/catkin_ws/devel/include
+Libs: -L/home/york2/catkin_ws/devel/lib -lpkg_timedomain_uwb
+Requires: roscpp std_msgs message_runtime

@@ -1,0 +1,5 @@
+<launch>
+        <param name="robot_description" command="cat $(find pkg_loc_uwb)/urdf/quadrotor_base.urdf" />
+        <node name="main_loc" pkg="pkg_loc_uwb" type="main_loc" output="screen"/>
+	<node name="rviz" pkg="rviz" type="rviz" />
+</launch>
