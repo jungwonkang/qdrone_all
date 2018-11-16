@@ -1,7 +1,9 @@
-# qdrone_all
+# Codes for QDrone project
 
-This repository includes codes for the [quality-driven drone project (simply QDrone)](https://github.com/yorku-ausml/qdrone).
+This repository includes codes for the [quality-driven drone (simply QDrone) project](https://github.com/yorku-ausml/qdrone).
 
+
+##
 
 https://github.com/jungwonkang/qdrone_all/tree/master/data_logger_20180309
 

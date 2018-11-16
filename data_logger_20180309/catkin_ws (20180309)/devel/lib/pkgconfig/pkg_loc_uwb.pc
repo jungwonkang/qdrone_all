@@ -1,8 +1,0 @@
-prefix=/home/york1/catkin_ws/devel
-
-Name: pkg_loc_uwb
-Description: Description of pkg_loc_uwb
-Version: 0.1.9
-Cflags: 
-Libs: -L/home/york1/catkin_ws/devel/lib 
-Requires: 

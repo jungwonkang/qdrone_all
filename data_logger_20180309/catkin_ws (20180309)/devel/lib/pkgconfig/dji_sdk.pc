@@ -1,8 +1,0 @@
-prefix=/home/york1/catkin_ws/devel
-
-Name: dji_sdk
-Description: Description of dji_sdk
-Version: 3.2.0
-Cflags: -I/home/york1/catkin_ws/devel/include -I/home/york1/catkin_ws/src/vai_uav0/dji_sdk/include
-Libs: -L/home/york1/catkin_ws/devel/lib 
-Requires: message_runtime geometry_msgs nav_msgs std_msgs
