@@ -11,12 +11,10 @@ This repository includes codes for the [quality-driven drone (simply QDrone) pro
 - [Sample ROS package for TimeDomain UWB P440](https://github.com/jungwonkang/qdrone_all/tree/master/sample_ros_time_domain_uwb)
   - Used for Uxbridge experiment on Oct 15 2018
 
-
 ## Data logger
 - [ROS package for DJI M100 telemetry (such as IMU) and TimeDomain P440 UWB](https://github.com/jungwonkang/qdrone_all/tree/master/data_logger_oshawa_exp20180530)
   - Used for producing Oshawa dataset
-  
-  
+   
 ## UWB-aided localization
 
 - [ROS package for drone localization using only multilateration](https://github.com/jungwonkang/qdrone_all/tree/master/localization_multilateration_20180905)
