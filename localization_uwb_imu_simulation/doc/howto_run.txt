@@ -1,0 +1,37 @@
+* 2018/6/18
+* Jungwon Kang
+
+
+----------------------------------------------------------------------------------------------------
+#### set libraries
+----------------------------------------------------------------------------------------------------
+To run the programs, we need four libraries:
+  (1) lib_required/arrow3
+      : for displaying arrow in matlab figure
+
+  (2) lib_required/gtsam4
+      : for only IMU simulator 
+        [located at lib_required\gtsam4\matlab\unstable_examples\+imuSimulator]
+
+  (3) lib_required/gtsam-toolbox-3.2.0-win64
+      : for gtsam core functions
+
+  (4) lib_required/robot-10.2
+      : for transformation functions
+	[Important Note] after putting paths for robot-10.2 into the matlab, you have to run 'startup_rvc.m' (located at lib_required\robot-10.2\rvctools).
+	
+
+Please set paths in the matlab as indicated in [doc/path_matlab.png].
+
+
+----------------------------------------------------------------------------------------------------
+#### run programs
+----------------------------------------------------------------------------------------------------
+The major programs are stored in [1_qdrone_simul_matlab] and [2_script_eval].
+
+The programs are described in [doc/prog_description.pdf].
+
+
+
+
+

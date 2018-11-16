@@ -1,0 +1,41 @@
+* 2018/6/11(월)
+* 강정원
+
+--------------------------------------------------------------------------------------------------------------------
+#### 3D trajectory plotting test
+--------------------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=cYEFRW-kyFc
+	https://github.com/inkyusa/SE3_TRJ_plot
+
+* Peter Corke:
+  https://github.com/petercorke/robotics-toolbox-matlab
+  http://petercorke.com/wordpress/toolboxes/robotics-toolbox#Downloading_the_Toolbox
+  [book] robotics vision and control fundamental algorithms in matlab second pdf
+    http://petercorke.com/wordpress/rvc/fundamentals/representing-position-orientation/
+
+
+--------------------------------------------------------------------------------------------------------------------
+@@@@ 사용법
+--------------------------------------------------------------------------------------------------------------------
+[robot-10.2 (rvctools) 설정]
+  - matlab에서 robot-10.2를 path로 포함시킨 후에, startup_rvc.m을 실행시킨다.
+
+[gtsam]
+  - gtsam4와 gtsam-toolbox-3.2.0-win64 모두 필요
+  - matlab 상에서 적절한 path 설정이 필요함.(path_for_gtsam.jpg 참고필요 -> 이 그림은 obsolete함.)
+
+
+--------------------------------------------------------------------------------------------------------------------
+@@@@ 버전관리
+--------------------------------------------------------------------------------------------------------------------
+qdrone_simul_matlab_ver0
+  : 기본적인 visualization 가능
+    (아직, imu 데이터 생성, uwb 데이터 생성 없음.)
+
+
+
+
+
+
+
+
