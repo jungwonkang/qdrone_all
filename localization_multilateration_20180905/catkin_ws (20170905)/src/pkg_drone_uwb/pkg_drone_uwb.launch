@@ -1,0 +1,5 @@
+<launch>
+	<param name="robot_description" command="cat $(find pkg_drone_uwb)/urdf/quadrotor_base.urdf" />
+	<node name="node_drone_uwb" pkg="pkg_drone_uwb" type="node_drone_uwb" output="screen"/>
+	<node name="rviz" pkg="rviz" type="rviz" />
+</launch>

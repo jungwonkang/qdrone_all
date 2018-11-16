@@ -1,0 +1,11 @@
+<robot name="quadrotor_base">
+  <link name="base_link">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://pkg_drone_uwb/urdf/quadrotor_base.dae"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
+

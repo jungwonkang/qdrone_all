@@ -1,0 +1,2 @@
+pkg_drone_uwb
+-G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/york1/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/york1/catkin_ws/install
