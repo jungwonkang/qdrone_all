@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/dji_sdk_generate_messages_nodejs"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/msg/MobileData.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/msg/MissionWaypointTask.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/msg/MissionWaypointAction.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/msg/WaypointList.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/msg/MissionWaypoint.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/msg/MissionHotpointTask.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/msg/Gimbal.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/msg/Waypoint.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/Stereo240pSubscription.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionHpUpdateYawRate.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionHpAction.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionWpSetSpeed.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionHpGetInfo.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/DroneTaskControl.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionHpUpdateRadius.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionWpGetSpeed.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/SetHardSync.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/StereoDepthSubscription.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/Activation.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionStatus.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/DroneArmControl.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionWpAction.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionWpUpload.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionHpUpload.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MFIOSetValue.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/StereoVGASubscription.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/SDKControlAuthority.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionWpGetInfo.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/SetupCameraStream.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/SetLocalPosRef.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/SendMobileData.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/CameraAction.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/QueryDroneVersion.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MFIOConfig.js"
+  "/home/york1/catkin_ws/devel/share/gennodejs/ros/dji_sdk/srv/MissionHpResetYaw.js"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/dji_sdk_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

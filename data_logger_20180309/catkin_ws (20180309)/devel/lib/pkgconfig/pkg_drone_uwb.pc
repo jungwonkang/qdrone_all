@@ -1,0 +1,8 @@
+prefix=/home/york1/catkin_ws/devel
+
+Name: pkg_drone_uwb
+Description: Description of pkg_drone_uwb
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/york1/catkin_ws/devel/lib 
+Requires: 

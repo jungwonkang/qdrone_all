@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/cls_timedomain.cpp
+cls_timedomain.h
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/cls_timedomain.h
+
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/cls_timedomain.h
+stdio.h
+-
+raw_src_time_domain/rcmIf.h
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/raw_src_time_domain/rcmIf.h
+raw_src_time_domain/rcm.h
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/raw_src_time_domain/rcm.h
+
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/raw_src_time_domain/hostInterfaceCommon.h
+
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/raw_src_time_domain/hostInterfaceRCM.h
+hostInterfaceCommon.h
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/raw_src_time_domain/hostInterfaceCommon.h
+
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/raw_src_time_domain/rcm.h
+hostInterfaceRCM.h
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/raw_src_time_domain/hostInterfaceRCM.h
+
+/home/york1/catkin_ws/src/pkg_timedomain_uwb/src/raw_src_time_domain/rcmIf.h
+
