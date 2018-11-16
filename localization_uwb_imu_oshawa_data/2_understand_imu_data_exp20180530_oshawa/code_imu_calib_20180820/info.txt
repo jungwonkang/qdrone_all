@@ -1,0 +1,61 @@
+% 2018/08/20
+
+
+
+
+abs_rot:
+	
+  absolute orientation
+	
+  x-axis direction along 401 East is rot0.
+	
+  x-axis direction along tobemorry is rot135.
+
+
+
+
+We follow FLU (Front:x, Left:y, UP:z)
+  
+
+exp1: roll, rot wrt x, counter-clockwise
+  
+
+exp2: roll, rot wrt x, clockwise
+ 
+  
+exp3: pitch, rot wrt y, counter-clockwise
+  
+
+exp4: pitch, rot wrt y, clockwise
+  
+
+exp5: yaw, rot wrt z, counter-clockwise
+
+  
+exp6: yaw, rot wrt z, clockwise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@ script1
+  : showing graph
+ 
+@ script2
+  : showing drone
+
