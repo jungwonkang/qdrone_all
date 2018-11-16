@@ -1,0 +1,36 @@
+* Nov 24 2017
+* Jungwon Kang
+
+
+============================================================================================================
+#### MFCApplication_trilateration_20170929_1 (jungwonkang)
+============================================================================================================
+This is the test MFC application for trilateration.
+The trilateration is written in [LibTrilateration.h & LibTrilateration.cpp].
+
+
+
+============================================================================================================
+#### catkin_ws (20170919_1)
+============================================================================================================
+This is a ROS package for UWB trilateration based drone positioning.
+We used ROS kinectic on Ubuntu 16.04.
+
+The trilateration code [LibTrilateration.h & LibTrilateration.cpp] 
+is placed in /catkin_ws/src/pkg_drone_uwb/src/lib_my
+
+The details of running this code are described in /doc/howto_uwb_trilateration_yu_sept19.pdf.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
