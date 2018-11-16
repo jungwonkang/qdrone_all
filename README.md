@@ -13,9 +13,12 @@ This repository includes codes for the [quality-driven drone (simply QDrone) pro
   - Used for producing Oshawa dataset
   
 ## UWB-aided localization
-- [Matlab implementation of drone localization with simulated IMU & UWB data](https://github.com/jungwonkang/qdrone_all/tree/master/localization_uwb_imu_simulation)
+
+- [ROS package for drone localization using only multilateration](https://github.com/jungwonkang/qdrone_all/tree/master/localization_multilateration_20180905)
+
+- [Matlab implementation for drone localization with simulated IMU & UWB data](https://github.com/jungwonkang/qdrone_all/tree/master/localization_uwb_imu_simulation)
   - Implemented for CSRS 2018
   
-- [Matlab implementation of drone localization with IMU & UWB data of Oshawa dataset](https://github.com/jungwonkang/qdrone_all/tree/master/localization_uwb_imu_oshawa_exp20180530)
+- [Matlab implementation for drone localization with IMU & UWB data in Oshawa dataset](https://github.com/jungwonkang/qdrone_all/tree/master/localization_uwb_imu_oshawa_exp20180530)
 
 
