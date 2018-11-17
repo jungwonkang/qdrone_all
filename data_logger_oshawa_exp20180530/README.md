@@ -1,4 +1,4 @@
-# ROS package for Data Logging of DJI M100 Telemetry and TimeDomain P440 UWB
+# ROS Package for Data Logging of DJI M100 Telemetry and TimeDomain P440 UWB
 
 This repository includes a data logger ROS package for acquiring sensor data from a flight controller and UWB modules.
 We used *N1* flight controller (in DJI M100) and Time Domain P440 UWB modules.
