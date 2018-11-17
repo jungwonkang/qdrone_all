@@ -13,7 +13,7 @@ We had the following hardwares and related softwares:
     - Ubuntu 16.04
     - ROS-kinetic
     - [DJI OSDK 3.4](https://github.com/dji-sdk/Onboard-SDK)
-    - [DJI OSDK-ROS 3.6](https://github.com/dji-sdk/Onboard-SDK-ROS) or [My variant of DJI OSDK-ROS 3.6](https://github.com/jungwonkang/sample_ros_dji_osdk)
+    - [DJI OSDK-ROS 3.6](https://github.com/dji-sdk/Onboard-SDK-ROS) or [My variant of DJI OSDK-ROS 3.6](../sample_ros_dji_osdk_telemetry)
   - [Optional] a laptop
     - We used this for running simulation.
 
@@ -30,7 +30,7 @@ In addition, the DJI M100 and the laptop are connected by a USB-microUSB cable.
     
 ### Description of individual package and node
   - Package 1: **dji_sdk**
-    - This package is from [DJI OSDK-ROS 3.6](https://github.com/dji-sdk/Onboard-SDK-ROS), or [My variant of DJI OSDK-ROS 3.6](https://github.com/jungwonkang/sample_ros_dji_osdk).
+    - This package is from [DJI OSDK-ROS 3.6](https://github.com/dji-sdk/Onboard-SDK-ROS), or [My variant of DJI OSDK-ROS 3.6](../sample_ros_dji_osdk_telemetry).
     - It acquires data from N1 flight controller in DJI M100, and publishes acquired data as the following two (topic) messages: 
         - *dji_sdk/attitude* : quaternion
         - *dji_sdk/imu* : quaternion
@@ -49,7 +49,7 @@ In addition, the DJI M100 and the laptop are connected by a USB-microUSB cable.
           Algorithm core for localization can be implemented in this class.
     - The following figures will help you understand the overall structure:
         - [Overall structure](./doc/description1.PNG)
-        - [**cls_loc_base**](./description2.PNG)
+        - [**cls_loc_base**](./doc/description2.PNG)
 
 ### Parameters
   - *cls_sensor.cpp*: true/false for selecting messages to be subscribed
