@@ -6,23 +6,23 @@ This repository includes codes for the [quality-driven drone (simply QDrone) pro
 
 
 ## Samples
-* [Sample ROS package for DJI OSDK-ROS telemetry](https://github.com/jungwonkang/qdrone_all/tree/master/sample_ros_dji_osdk_telemetry)
+* [Sample ROS package for DJI OSDK-ROS telemetry](./sample_ros_dji_osdk_telemetry)
 
-* [Sample ROS package for TimeDomain UWB P440](https://github.com/jungwonkang/qdrone_all/tree/master/sample_ros_time_domain_uwb)
+* [Sample ROS package for TimeDomain UWB P440](./sample_ros_time_domain_uwb)
   - Used for Uxbridge experiment on Oct 15 2018
 
-* [Sample c++ code for multilateration](https://github.com/jungwonkang/qdrone_all/tree/master/sample_multilateration)
+* [Sample c++ code for multilateration](./sample_multilateration)
  
 ## Data logger
-* [ROS package for DJI M100 telemetry (such as IMU) and TimeDomain P440 UWB](https://github.com/jungwonkang/qdrone_all/tree/master/data_logger_oshawa_exp20180530)
+* [ROS package for DJI M100 telemetry (such as IMU) and TimeDomain P440 UWB](./data_logger_oshawa_exp20180530)
   - Used for producing Oshawa dataset
    
 ## UWB-aided localization
-* [ROS package for drone localization using only multilateration](https://github.com/jungwonkang/qdrone_all/tree/master/localization_multilateration_20180905)
+* [ROS package for drone localization using only multilateration](./localization_multilateration_20180905)
 
-* [Matlab implementation for drone localization with simulated IMU & UWB data](https://github.com/jungwonkang/qdrone_all/tree/master/localization_uwb_imu_simulation)
+* [Matlab implementation for drone localization with simulated IMU & UWB data](./localization_uwb_imu_simulation)
   - Implemented for CSRS 2018
   
-* [Matlab implementation for drone localization with IMU & UWB data in Oshawa dataset](https://github.com/jungwonkang/qdrone_all/tree/master/localization_uwb_imu_oshawa_exp20180530)
+* [Matlab implementation for drone localization with IMU & UWB data in Oshawa dataset](./localization_uwb_imu_oshawa_exp20180530)
 
 
