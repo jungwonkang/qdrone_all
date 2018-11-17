@@ -48,8 +48,8 @@ In addition, the DJI M100 and the laptop are connected by a USB-microUSB cable.
         - [For future use] The **Loc_core_void** is now an empty class for future use. 
           Algorithm core for localization can be implemented in this class.
     - The following figures will help you understand the overall structure:
-        - [Overall structure](https://github.com/jungwonkang/vai_uav_data_logger/blob/master/doc/description1.PNG)
-        - [**cls_loc_base**](https://github.com/jungwonkang/vai_uav_data_logger/blob/master/doc/description2.PNG)
+        - [Overall structure](./doc/description1.PNG)
+        - [**cls_loc_base**](./description2.PNG)
 
 ### Parameters
   - *cls_sensor.cpp*: true/false for selecting messages to be subscribed
